@@ -15,7 +15,7 @@ const SignupForm = () => {
   });
   const { toast } = useToast();
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async(e: React.FormEvent) => {
     e.preventDefault();
     
     if (!formData.nombre || !formData.correo || !formData.tipoPersona) {
@@ -27,10 +27,17 @@ const SignupForm = () => {
       return;
     }
 
+    await fetch( "https://hook.us2.make.com/uvrzugslisiwn32hw6m1balx15rcu5hj", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify(formData)
+      });
     // Simulamos el envío del formulario
     toast({
       title: "¡Registro exitoso!",
-      description: `Gracias ${formData.nombre}, te contactaremos pronto como ${formData.tipoPersona.toLowerCase()}.`,
+      description: `Gracias ${formData.nombre}, por estar en la lista de espera, cualquier novedad te informaremos.`,
     });
 
     // Reset form

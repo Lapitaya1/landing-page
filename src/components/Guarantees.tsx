@@ -62,7 +62,7 @@ const Guarantees = () => {
           </Card>
         </div>
 
-        <Card className="bg-gradient-to-r from-red-50 to-orange-50 border-2 border-red-200 mb-8">
+        {/* <Card className="bg-gradient-to-r from-red-50 to-orange-50 border-2 border-red-200 mb-8">
           <CardHeader>
             <CardTitle className="text-2xl font-bold text-[#ff0808] text-center">
               Política de Devoluciones y Garantías
@@ -114,7 +114,7 @@ const Guarantees = () => {
               </div>
             </div>
           </CardContent>
-        </Card>
+        </Card> */}
 
         <Card className="bg-gradient-to-r from-yellow-50 to-red-50 border-2 border-yellow-400">
           <CardHeader>
