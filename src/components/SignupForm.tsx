@@ -122,11 +122,6 @@ const SignupForm = () => {
                 </Button>
               </form>
 
-              <div className="mt-6 text-center">
-                <p className="text-sm text-gray-600">
-                  Al registrarte aceptas nuestros términos y condiciones
-                </p>
-              </div>
             </CardContent>
           </Card>
         </div>
