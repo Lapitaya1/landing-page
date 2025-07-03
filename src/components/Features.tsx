@@ -8,17 +8,17 @@ const Features = () => {
     {
       icon: <User className="w-12 h-12 text-red-600" />,
       title: "Verificación de Vendedores",
-      description: "Verificación facial única y validación de productos con fotos detalladas. Cada producto tiene un código único para garantizar autenticidad."
+      description: "Verificación de proveedores y productos con tecnología desarrollada y pensada para garantizar la autenticidad de los artículos."
     },
     {
       icon: <Shield className="w-12 h-12 text-red-500" />,
       title: "Garantías para Compradores",
-      description: "Seguimiento completo de pedidos con fotos del envío y entrega. Tu tranquilidad es nuestra prioridad."
+      description: "Seguimiento completo del pedido desde el momento de la compra. Se creó un sistema para que el cliente reciba el pedido correcto, sin errores ni fallos."
     },
     {
-      icon: <Truck className="w-12 h-12 text-orange-500" />,
+      icon: <Truck className="w-12 h-12 text-red-500" />,
       title: "Envíos y Devoluciones",
-      description: "Entregas rápidas en Lima (24-36h) y provincias (36-48h). Devoluciones fáciles en un solo clic."
+      description: "Envío más rápido y seguro en todo el Perú. Llegamos en menos de 48 horas. Devoluciones a un solo click, nos encargamos de recoger el pedido en la puerta de tu hogar."
     }
   ];
 
@@ -26,12 +26,13 @@ const Features = () => {
     <section id="features" className="py-20 px-4 bg-gray-50">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
-            ¿Por qué elegir Pitaya?
+          <h2 className="text-4xl md:text-5xl text-gray-800 mb-6">
+            ¿Por qué elegir <strong>LAPITAYA</strong>?
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Ofrecemos la experiencia de e-commerce más segura y confiable, 
-            con garantías reales tanto para compradores como vendedores
+          Diseñado para comprar fácil, rápido y sin complicaciones. 
+          Respetamos tu tiempo y ponemos siempre al cliente primero. Creemos en una experiencia 
+          digital humana, justa y completamente transparente.
           </p>
         </div>
 

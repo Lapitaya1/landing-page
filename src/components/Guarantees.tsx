@@ -26,7 +26,7 @@ const Guarantees = () => {
             <CardContent className="space-y-4">
               <div className="bg-red-50 p-4 rounded-lg">
                 <h4 className="font-semibold text-[#ff0808] mb-2">📦 Seguimiento Completo</h4>
-                <p className="text-red-700">Pitaya rastrea todos tus pedidos desde el envío hasta la entrega</p>
+                <p className="text-red-700"><strong>LAPITAYA</strong> rastrea todos tus pedidos desde el envío hasta la entrega</p>
               </div>
               <div className="bg-red-50 p-4 rounded-lg">
                 <h4 className="font-semibold text-[#ff0808] mb-2">📸 Fotos del Envío</h4>
@@ -48,7 +48,7 @@ const Guarantees = () => {
             <CardContent className="space-y-4">
               <div className="bg-orange-50 p-4 rounded-lg">
                 <h4 className="font-semibold text-orange-800 mb-2">💰 Pagos Cada 15 Días</h4>
-                <p className="text-orange-700">Pagos puntuales cada 15 días calendario (primer día hábil si cae en feriado)</p>
+                <p className="text-orange-700">Pagos puntuales cada 15 días calendario</p>
               </div>
               <div className="bg-orange-50 p-4 rounded-lg">
                 <h4 className="font-semibold text-orange-800 mb-2">⭐ Planes Premium</h4>
@@ -56,7 +56,7 @@ const Guarantees = () => {
               </div>
               <div className="bg-orange-50 p-4 rounded-lg">
                 <h4 className="font-semibold text-orange-800 mb-2">🛡️ Protección Total</h4>
-                <p className="text-orange-700">Te protegemos contra fraudes y devoluciones injustificadas</p>
+                <p className="text-orange-700">Te protegemos contra fraudes</p>
               </div>
             </CardContent>
           </Card>
@@ -116,7 +116,7 @@ const Guarantees = () => {
           </CardContent>
         </Card> */}
 
-        <Card className="bg-gradient-to-r from-yellow-50 to-red-50 border-2 border-yellow-400">
+        {/* <Card className="bg-gradient-to-r from-yellow-50 to-red-50 border-2 border-yellow-400">
           <CardHeader>
             <CardTitle className="text-2xl font-bold text-[#ff0808] text-center">
               🚨 Devoluciones por Producto Defectuoso
@@ -160,7 +160,7 @@ const Guarantees = () => {
               </div>
             </div>
           </CardContent>
-        </Card>
+        </Card> */}
       </div>
     </section>
   );

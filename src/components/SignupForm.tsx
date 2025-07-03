@@ -49,10 +49,10 @@ const SignupForm = () => {
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-            Únete a Pitaya
+            LAPITAYA, ¡UNETE!
           </h2>
           <p className="text-xl text-red-100 max-w-2xl mx-auto">
-            Forma parte de la comunidad de e-commerce más segura del Perú
+            Forma parte del cambio, con la nueva marketplace más segura, más rápida y más avanzada del Perú.
           </p>
         </div>
 
