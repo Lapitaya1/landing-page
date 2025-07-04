@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="max-w-6xl mx-auto grid grid-cols-2">
         <p className='text-gray-300'>
           Contacto:<br/>
-          -info@lapitayastore.com,<br/>-atencionalcliente@lapitayastore.com
+          -info@lapitayastore.com<br/>-atencionalcliente@lapitayastore.com
         </p>
         <div className=" border-gray-800 mt-0 pt-0 text-center self-center">
           <p className="text-gray-400">
