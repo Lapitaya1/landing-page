@@ -31,7 +31,7 @@ const Features = () => {
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
           Diseñado para comprar fácil, rápido y sin complicaciones. 
-          Respetamos tu tiempo y ponemos siempre al cliente primero. Creemos en una experiencia 
+          Respetamos tu tiempo y ponemos siempre al cliente primero. Creamos una experiencia 
           digital humana, justa y completamente transparente.
           </p>
         </div>
